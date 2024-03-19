@@ -1,7 +1,7 @@
 import 'reflect-metadata'
 import express from 'express'
 import cors from "cors"
-import { AppDataSource } from './database/data-source'
+import { AppDataSource } from './App/config/data-source'
 import bodyParser from 'body-parser';
 import session from 'express-session';
 

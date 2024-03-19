@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 import { DataSource } from 'typeorm'
-import User from '../App/entities/User'
+import User from '../entities/User'
 import { CreateUsersTable1710863286629 } from './migrations/1710863286629-CreateUsersTable'
 
 export const AppDataSource = new DataSource({
